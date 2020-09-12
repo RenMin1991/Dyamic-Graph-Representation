@@ -63,3 +63,11 @@ Multi-scale strategy is integrated into the DGR.
 
 ![arch](framework_multiscale.png)
 
+# Citation
+@inproceedings{ren2020dynamic,
+  title={Dynamic Graph Representation for Occlusion Handling in Biometrics.},
+  author={Ren, Min and Wang, Yunlong and Sun, Zhenan and Tan, Tieniu},
+  booktitle={AAAI},
+  pages={11940--11947},
+  year={2020}
+}
