@@ -8,13 +8,13 @@ class Config(object):
     def __init__(self):
         # data
         self.num_samples = 20000                                              # number of samples
-        self.data_folder = '../data/iris/CASIA-Iris-Thousand/'                # data folder of the iris images
-        self.txt_path = '../data/iris/CASIA-Iris-Thousand/Thousand_train.txt' # path to the .txt file of labels                                             
+        self.data_folder = 'path/to/data/'                                    # data folder of the iris images
+        self.txt_path = 'path/to/label.txt'                                   # path to the .txt file of labels                                             
         
         # others
-        self.feature_path = 'features/feature.pth'                            # storage location of features
+        self.feature_path = 'path/to/feature.pth'                             # storage location of features
 
-        self.pretrained_path = 'checkpoint/graph_multiscale_ND.pth'           # pretrained model
+        self.pretrained_path = 'path/to/pretrained.pth'                       # pretrained model
 
 
     def num_samplesGet(self):
