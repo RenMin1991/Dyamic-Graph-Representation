@@ -49,3 +49,15 @@ Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/
 `configs/config_test.py`to set the configurations of test.
 
 `test.py` to test.
+
+### Performance
+
+Dataset       | ND-LG4000 | CASIA-Distance | CASIA-M1S2 | CASIA-Lamp
+FRR@FAR=0.01% | 3.02%     | 6.94%          | 6.57       | 5.92%
+EER           | 0.62%     | 1.71%          | 0.76%      | 0.61%
+
+# Update
+
+Multi-scale strategy is integrated into the DGR.
+
+
