@@ -19,4 +19,8 @@ torchvision == 0.3.0
 
 ### Data preparing
 
-The recognition model is trained by normalized iris image. All of your training images should be in one folder. The labels should be stored in a `.txt` file.
+The recognition model is trained by normalized iris images. All of your training images should be stored in one folder. The labels should be recorded in a `.txt` file.
+One row per image.
+
+An example of label file:
+
