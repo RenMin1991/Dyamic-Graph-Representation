@@ -38,7 +38,7 @@ An example of label file:
 
 ## Feature extraction
 
-Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1dJHhzUF73lVk2Bd8Gy6XzA)
+Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1fOkdHLThw5x0QiFT2f5zYQ), code: g3sn
 
 `configs/config_FE.py`to set the configurations of feature extraction.
 
