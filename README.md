@@ -5,6 +5,8 @@ We propose a novel unified framework integrated the merits of both CNNs and grap
 
 ![arch](main_idea_7.png)
 
+## The proposed framework
+
 ![arch](framework.png)
 
 # Usage Instructions
