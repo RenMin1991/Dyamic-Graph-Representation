@@ -14,3 +14,9 @@ python == 3.7
 pytorch == 1.1.0
 
 torchvision == 0.3.0
+
+### Training
+
+#### Data preparing
+
+The recognition model is trained by normalized iris image. All of your training images should be in one folder. The labels should be stored in a '.txt' file.
