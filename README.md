@@ -8,6 +8,9 @@ We propose a novel unified framework integrated the merits of both CNNs and grap
 ## Usage Instructions
 
 ### Requirments
+
 python == 3.7
+
 pytorch == 1.1.0
+
 torchvision == 0.3.0
