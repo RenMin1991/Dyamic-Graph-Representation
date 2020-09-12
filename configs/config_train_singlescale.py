@@ -27,7 +27,7 @@ class Config(object):
         self.margin_triplet = 0.5                                             # margin of graph triplet loss
         
         # others
-        self.save_file = 'path/to/checkpoint_'                      # storage of checkpoint
+        self.save_file = 'path/to/checkpoint_'                                # storage of checkpoint
         self.log_step = 100                                                   # frequency of printing log
         self.save_step = 10000                                                # frequency of saving checkpoint
 
