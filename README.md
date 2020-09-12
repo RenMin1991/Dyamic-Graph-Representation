@@ -23,4 +23,4 @@ The recognition model is trained by normalized iris images. All of your training
 One row per image.
 
 An example of label file:
-
+![arch](txt_example.png)
