@@ -26,4 +26,22 @@ An example of label file:
 
 ![arch](txt_example.PNG)
 
+### Start Training
 
+`configs/config_train_singlescale.py`to set the configurations of training.
+
+`train_singlescale.py` to begin training.
+
+## Feature extraction
+
+Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1dJHhzUF73lVk2Bd8Gy6XzA)
+
+`configs/config_FE.py`to set the configurations of feature extraction.
+
+`feature_extraction_singlescale.py` to extract features.
+
+## Test
+
+`configs/config_test.py`to set the configurations of test.
+
+`test.py` to test.
