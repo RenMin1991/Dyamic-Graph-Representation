@@ -61,4 +61,5 @@ EER           | 0.62%     | 1.71%          | 0.76%      | 0.61%
 
 Multi-scale strategy is integrated into the DGR.
 
+![arch](framework_multiscale.png)
 
