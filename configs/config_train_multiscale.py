@@ -15,8 +15,8 @@ class Config(object):
         self.weight_decay = 1e-4                                              # weight decay of optimizr
         
         # data
-        self.data_folder = '../data/iris/CASIA-Iris-Thousand/'                # data folder of the iris images
-        self.txt_path = '../data/iris/CASIA-Iris-Thousand/Thousand_train.txt' # path to the .txt file of labels  
+        self.data_folder = 'path/to/data/'                                    # data folder of the iris images
+        self.txt_path = 'path/to/label.txt'                                   # path to the .txt file of labels  
         self.num_classes = 2000                                               # number of classes
         
         # loss
@@ -27,10 +27,10 @@ class Config(object):
         self.margin_triplet = 0.5                                             # margin of graph triplet loss
         
         # others
-        self.save_file = 'checkpoint/graph_multiscale_'                       # storage of checkpoint
+        self.save_file = 'path/to/checkpoint_'                                # storage of checkpoint
         self.log_step = 100                                                   # frequency of printing log
         self.save_step = 10000                                                # frequency of saving checkpoint
-        self.pretrained_path = 'checkpoint/graph_singlescale_ND.pth'          # pretrained model
+        self.pretrained_path = 'path/to/pretrained.pth'                       # pretrained model
 
 
       
