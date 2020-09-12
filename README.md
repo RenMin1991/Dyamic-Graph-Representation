@@ -5,9 +5,9 @@ We propose a novel unified framework integrated the merits of both CNNs and grap
 
 ![arch](main_idea_7.png)
 
-## Usage Instructions
+# Usage Instructions
 
-### Requirments
+## Requirments
 
 python == 3.7
 
@@ -15,8 +15,8 @@ pytorch == 1.1.0
 
 torchvision == 0.3.0
 
-### Training
+## Training
 
-#### Data preparing
+### Data preparing
 
-The recognition model is trained by normalized iris image. All of your training images should be in one folder. The labels should be stored in a '.txt' file.
+The recognition model is trained by normalized iris image. All of your training images should be in one folder. The labels should be stored in a `.txt` file.
