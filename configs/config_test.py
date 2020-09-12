@@ -6,16 +6,16 @@ RenMin
 
 class Config(object):
     def __init__(self):
-        self.data_folder_temp = '../data/iris/CASIA-Iris-Thousand/'                # data folder of the template images
-        self.txt_path_temp = '../data/iris/CASIA-Iris-Thousand/Thousand_train.txt' # path to the .txt file of template images
-        self.data_folder_ver = '../data/iris/CASIA-Iris-Thousand/'                 # data folder of the verified images
-        self.txt_path_ver = '../data/iris/CASIA-Iris-Thousand/Thousand_train.txt'  # path to the .txt file of verified images
-        self.sim_path = 'sim.csv'                                                  # storage location of similarities
-        self.pretrained_path = 'checkpoint/graph_singlescale_ND.pth'               # pretrained model
+        self.data_folder_temp = 'path/to/template/'                                # data folder of the template images
+        self.txt_path_temp = 'path/to/template/label.txt'                          # path to the .txt file of template images
+        self.data_folder_ver = 'path/to/verified/images/'                          # data folder of the verified images
+        self.txt_path_ver = 'path/to/verified/label.txt'                           # path to the .txt file of verified images
+        self.sim_path = 'path/to/similarities.csv'                                 # storage location of similarities
+        self.pretrained_path = 'path/to/pretrained.pth'                            # pretrained model
         
-        self.rot_list = [-4, -2, 0, 2, 4]
-        self.weight_loc = 0.
-        self.weight_feat = 1.      
+        self.rot_list = [-4, -2, 0, 2, 4]                                          # location list of Bit-shift
+        self.weight_loc = 0.                                                       # weight of structure similarity
+        self.weight_feat = 1.                                                      # weight of node similarity
 
 
     def data_folder_tempGet(self):
