@@ -61,6 +61,9 @@ EER           | 0.62%     | 1.71%          | 0.76%      | 0.61%
 #### face recognition
 ![arch](face_recognition.PNG)
 
+The pretrained model of face recognition is not available because of intellectual property policies.
+But you can train your own model according to our codes.
+
 # Update
 
 Multi-scale strategy is integrated into the DGR. The representations of nodes from one single layer can only ingest contexts from receptive fields of the same size. Thus, the multiscale strategy is further incorporated to attain more diverse nodes representing regions of various sizes. The primitive FG is subsequently reorganized in a hierarchical manner for escalated DGM. Feature graphs are generated from feature maps of different layers. Multiscale content representations and topological structures, which are contained in multiscale feature graphs, are summarized together in the framework of our multiscale dynamic graph representation. Node features yielded from different layers correspond to different scales of local regions of the input image. Edges from different layers represent topological structures of different scales. Hence, the features contained in multiscale feature graphs representation are much more abundant than those in single-scale representation.
