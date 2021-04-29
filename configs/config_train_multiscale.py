@@ -8,7 +8,7 @@ class Config(object):
     def __init__(self):
         
         # optimizer
-        self.lr = 1e-4                                                        # learning rate
+        self.lr = 1e-3                                                        # learning rate
         self.steps = 10000                                                    # steps of training
         self.batch = 64                                                       # mini-batch
         self.momentum = 0.9                                                   # momentum of optimizer
