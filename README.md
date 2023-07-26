@@ -84,3 +84,14 @@ If you find **DGR** useful in your research, please consider to cite:
       year={2020}
     }
 
+    @ARTICLE{10193782,
+      author={Ren, Min and Wang, Yunlong and Zhu, Yuhao and Zhang, Kunbo and Sun, Zhenan},
+      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+      title={Multiscale Dynamic Graph Representation for Biometric Recognition with Occlusions}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={1-17},
+      doi={10.1109/TPAMI.2023.3298836}}
+
+
